@@ -1,0 +1,40 @@
+@import "../../styles/variables.scss";
+
+.menu{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 12px;
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        
+        .title{
+            font-size: 15px;
+            color: $soft-color;
+            letter-spacing: 1px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 5px;
+            font-size: 15px;
+        }
+
+        span{
+            margin-bottom: 10px;
+        }
+
+       .listIcon{
+        padding: 7px 10px;
+        border-radius: 5px;
+        transition: .6s ease-in-out;
+        img{
+            margin-right: 10px;
+            height: 15px;
+        }
+        &:hover{
+            background-color: $soft-bg;
+        }
+       }
+    }
+}
